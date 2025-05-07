@@ -12,7 +12,7 @@
     "audit": "yarn audit",
     "upg": "yarn upgrade-interactive --latest",
     "build": "yarn build:prod && yarn build:sitemap",
-    "build:prod": "cross-env NODE_OPTIONS='--max-old-space-size=8192' next build --debug && ts-node scripts/replace-auth-env-variables.ts",
+    "build:prod": "cross-env NODE_OPTIONS='--max-old-space-size=8192' next build --debug",
     "build:sitemap": "next-sitemap --config next-sitemap.config.js",
     "build:verbose": "next build --debug --profile",
     "update-passwords-blacklist": "ts-node scripts/fetch-passwords-blacklist.ts",
