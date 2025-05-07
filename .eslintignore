@@ -1,0 +1,13 @@
+node_modules,
+build,
+dist,
+public,
+.next,
+.yarn,
+*.lock
+**/*.css
+**/*.md
+patches
+playwright/node_modules
+playwright/tests/dataset/
+*.svg

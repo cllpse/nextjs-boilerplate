@@ -1,0 +1,145 @@
+@layer reset;
+
+@layer reset {
+  :root {
+    --BU: 4px;
+    --BUN: -4px;
+  }
+
+  .reportClass {
+    height: 100%;
+    width: 100%;
+  }
+
+  .reportClass iframe {
+    width: 100%;
+    aspect-ratio: "1/2";
+    border: none;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+
+
+  #nprogress {
+    pointer-events: none;
+  }
+
+  #nprogress .bar {
+    background: #FE3A3B;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+  }
+
+  #nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #FE3A3B, 0 0 5px #FE3A3B;
+    opacity: 1;
+    transform: rotate(3deg) translate(0px, -4px);
+  }
+
+  button,
+  input {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  #CybotCookiebotDialog *,
+  #CybotCookiebotDialogBodyUnderlay * {
+    font-size: 1.25rem !important;
+  }
+
+  #CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink {
+    padding: 16px !important;
+  }
+
+  #CybotCookiebotDialogBodyContent {
+    padding-top: 26px !important;
+    padding-bottom: 26px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  html body .MuiPopover-root {
+    z-index: 999999 !important;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+  }
+
+  .component-composition-reset,
+  .component-composition-reset:after,
+  .component-composition-reset:before,
+  .component-composition-reset * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .MuiPopover-paper,
+  .base-Popper-root {
+    pointer-events: auto;
+  }
+}
+
+.STACK {
+  /* background: cyan; */
+}
+
+.ALIGN {
+  /* background: magenta; */
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 11px;
+  border: 4px solid white;
+}
