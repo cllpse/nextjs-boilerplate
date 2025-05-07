@@ -64,7 +64,7 @@ export const DARK_COLORS = {
   textBlack: "#1C1C1E",
   greyWolf: "#9B9FAA",
   greyText: "#6c757d",
-  becauseGrey: "#D9D9D9",
+  xxxGrey: "#D9D9D9",
 }
 export const LIGHT_COLORS = {
   neutralTint: "#CED4DA",
@@ -89,7 +89,7 @@ export const ICON_COLORS = {
   //TODO
 }
 
-export const BECAUSE = {
+export const XXX = {
   typography: TYPOGRAPHY,
   colors: {
     brand: {
@@ -165,7 +165,7 @@ export const THEME: Theme = {
   },
   header: HEADER_THEME_LIGHT,
   buttons: BUTTON_THEME_TEAL,
-  because: BECAUSE,
+  xxx: XXX,
 }
 
 export const MUI_THEME = createTheme({
@@ -223,5 +223,5 @@ export const MUI_THEME = createTheme({
   },
 })
 
-export const DEFAULT_BECAUSE_LOGO_WHITE = "/assets/logos/because_logo_white_new.svg"
-export const DEFAULT_BECAUSE_LOGO_WHITE_SQUARE = "/assets/logos/because_logo_white_no_text.svg"
+export const DEFAULT_XXX_LOGO_WHITE = "/assets/logos/xxx.svg"
+export const DEFAULT_XXX_LOGO_WHITE_SQUARE = "/assets/logos/xxx_logo_white_no_text.svg"

@@ -11,8 +11,8 @@ export type ValidateChildrenErrorStyles = CSSObject
 export const generateErrorStyles = (invalidChildren: InvalidChildren): ValidateChildrenErrorStyles =>
   invalidChildren.length
     ? {
-        position: "relative",
-        background: `repeating-linear-gradient(
+      position: "relative",
+      background: `repeating-linear-gradient(
           -45deg,
           rgba(255, 0, 0, 0.2),
           rgba(255, 0, 0, 0.2) 3px,
@@ -20,18 +20,18 @@ export const generateErrorStyles = (invalidChildren: InvalidChildren): ValidateC
           rgba(255, 0, 0, 0.1) 6px
         )`,
 
-        "&::before": {
-          content: `"INVALID CHILDREN: ${invalidChildren.join(", ")}"`,
-          position: "absolute",
-          top: "calc(100% - 16px)",
-          right: 0,
-          color: "rgba(255, 255, 255, 1)",
-          backgroundColor: "rgba(255, 0, 0, 1)",
-          fontSize: "16px",
-          lineHeight: "16px",
-          zIndex: 999999999,
-        },
-      }
+      "&::before": {
+        content: `"INVALID CHILDREN: ${invalidChildren.join(", ")}"`,
+        position: "absolute",
+        top: "calc(100% - 16px)",
+        right: 0,
+        color: "rgba(255, 255, 255, 1)",
+        backgroundColor: "rgba(255, 0, 0, 1)",
+        fontSize: "16px",
+        lineHeight: "16px",
+        zIndex: 999999999,
+      },
+    }
     : {}
 
 export const generateErrorClassName = (invalidChildren: InvalidChildren): string =>
@@ -50,7 +50,7 @@ const getComponentName = (parentTypeName: string, child: Children): string | und
     if (emotionBaseIsComponent) {
       // eslint-disable-next-line no-console
       // console.groupCollapsed(
-      //   `⚠️ <${parentTypeName} /> contains a Styled(Component) See https://github.com/BeCauseEco/ui?tab=readme-ov-file#overriding-styles for more information.`,
+      //   `⚠️ <${parentTypeName} /> contains a Styled(Component) See https://github.com/XXX/ui?tab=readme-ov-file#overriding-styles for more information.`,
       // )
       // // eslint-disable-next-line no-console
       // console.trace()

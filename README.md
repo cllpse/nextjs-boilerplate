@@ -1,4 +1,4 @@
-# BeCause front-end
+# XXX front-end
 
 ## First Line of Defense: Vercel instant rollback ™ © ®
 
@@ -28,7 +28,7 @@ Images are statically served from the **directory: /public**. We do not import a
 
 The new component library is exposed via a Git submodule at **path: ./src/components/new/**.
 
-The repository itself is located at: https://github.com/BeCauseEco/components.
+The repository itself is located at: https://github.com/XXX/components.
 
 ### Cloning
 
@@ -124,7 +124,7 @@ The project does work in a Windows environment but only in development mode. The
 
 If you discover anything specific to Windows that you think is worth noting for future, please add it here.
 
-# Because front-end Git flow
+# XXX front-end Git flow
 
 ## Branches
 
@@ -138,8 +138,8 @@ This branch connects to the production back-end.
 
 This branch is assigned to the following domains:
 
-- app.because.eco
-- radisson.because.eco
+- app.XXX.eco
+- radisson.XXX.eco
 
 ### Branch: "testing"
 
@@ -153,8 +153,8 @@ This branch connects to the test back-end.
 
 This branch is assigned to the following domains:
 
-- app-test.because.eco
-- because.engineering
+- app-test.XXX.eco
+- XXX.engineering
 
 ### Feature-branches
 
@@ -178,7 +178,7 @@ Every status change is communicated back to pull-requests, including: preview en
 
 To share a preview-environment with a stakeholder; navigate to the environment instance, and share it using a link.
 
-![vercel-share](https://github.com/BeCauseEco/ui/assets/1655171/5f8b03cd-0a6b-4236-aba0-d0c0780bbae3)
+![vercel-share](https://github.com/XXX/ui/assets/1655171/5f8b03cd-0a6b-4236-aba0-d0c0780bbae3)
 
 ## Pull-requests
 
@@ -235,4 +235,4 @@ Pull-requests require the following checks to succeed in order to be merged:
 
 
 ## Playwright E2E FE&BE testing
-Please refer to [internal playwright repo documentation](https://github.com/BeCauseEco/ui/blob/master/playwright/README.md) for more details.
+Please refer to [internal playwright repo documentation](https://github.com/XXX/ui/blob/master/playwright/README.md) for more details.
