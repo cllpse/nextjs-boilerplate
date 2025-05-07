@@ -7,9 +7,7 @@ const ContentWithNewLayout = styled.div`
 `
 
 const HeaderFooterContainer = ({ children }: { children: ReactNode }) => {
-  return (
-    <ContentWithNewLayout>{children}</ContentWithNewLayout>
-  )
+  return <ContentWithNewLayout>{children}</ContentWithNewLayout>
 }
 
 const Layout = ({ children }: { children: ReactNode }) => {

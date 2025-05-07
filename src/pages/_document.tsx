@@ -14,8 +14,6 @@ export default class MainDocument extends Document {
         <meta name="theme-color" content={MUI_THEME.palette.primary.main} />
 
         <Head>
-
-
           {/* <script crossOrigin="anonymous" src="//unpkg.com/react-scan/dist/auto.global.js" /> */}
 
           {/* eslint-disable */}
